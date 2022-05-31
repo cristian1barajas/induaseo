@@ -1,5 +1,7 @@
+/* Fuente Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* Margin y Padding a todo el body*/
 * {
     margin: 0;
     padding: 0;
@@ -7,13 +9,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Movimientos suaves del documento HTML*/
 html {
   scroll-behavior: smooth;
 }
 
+/* Propiedad altura mínima en 1000px */
 body {
     min-height: 1000px;
 }
+
+/* ***************Estilos para el Header******************* */
+/* **********************************************************/
 
 header {
     position: fixed;
@@ -72,6 +79,9 @@ header a img {
   width: 350px;
 }
 
+/* ***************Estilos para el Banner******************* */
+/* **********************************************************/
+
 .banner {
   position: relative;
   width: 100%;
@@ -127,6 +137,9 @@ header a img {
   font-style: italic;
   font-size: 30px;
 }
+
+/* ***************Estilos para Servicios******************* */
+/* **********************************************************/
 
 .sec {
   background: rgb(32, 31, 31);
@@ -196,9 +209,42 @@ header a img {
 
 .box_img {
   position: relative;
-  left: 900px;
+  left: 910px;
 }
 
 .box_img img {
   max-width: 500px;
+}
+
+/* ***************Estilos Sobre Nosotros******************* */
+/* **********************************************************/
+
+.sec_about {
+  position: relative;
+  justify-content: center;
+  width: 100%;
+}
+
+.about {
+  position: relative;
+  align-items: top;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 50px;
+  max-width: 100%;
+  padding: 50px;
+}
+
+.content_about h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-style: italic;
+  color: #FE5900;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.content_about p {
+  letter-spacing: 1px;
+  font-size: 16px;
 }
