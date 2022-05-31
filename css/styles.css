@@ -131,18 +131,28 @@ header a img {
 .sec {
   background: rgb(32, 31, 31);
   height: 60vh;
-  padding: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.sec_title h2 {
+  position: relative;
+  right: 425%;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  transform: rotate(270deg);
+}
+
 .content {
   position: relative;
-  left: 10%;
+  left: -19%;
   display: flex;
   flex-direction: row;
-  width: 1000px;
+  width: 100%;
+  min-width: 800px;
   height: 165px;
   background-color: #FE5900;
 }
@@ -175,10 +185,18 @@ header a img {
 .btn {
   position: relative;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 20px 30px;
   background-color: #000;
+  border-radius: 10px;
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
   color: #fff;
+}
+
+.box_img {
+  position: relative;
+  left: 900px;
 }
 
 .box_img img {
