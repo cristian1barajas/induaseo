@@ -400,3 +400,75 @@ header a img {
   color: #FFF;
   padding-bottom: 30px;
 }
+
+/* *************Estilos Contact****************** */
+
+.contact_banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/aseo.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  align-items: flex-end;
+  padding-right: 40px;
+}
+
+.font_h2_h3 {
+  position: relative;
+  color: #000;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.box_orange_contact {
+  background-color: #FE5900;
+  max-width: 40%;
+  margin-top: 25px;
+}
+
+.box_orange_contact h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.box_orange_contact h3 {
+  letter-spacing: 3px;
+  font-style: italic;
+  color: #000;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.hour_text {
+  text-transform: uppercase;
+  line-height: 20px;
+  padding: 30px;
+  font-weight: 400;
+}
+
+.hour {
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.back_blue {
+  background-color: #7dd8ff;
+  padding: 30px;
+  margin-top: 40px;
+}
