@@ -12,6 +12,7 @@
 /* Movimientos suaves del documento HTML*/
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;  
 }
 
 /* Propiedad altura mínima en 1000px */
@@ -247,4 +248,155 @@ header a img {
 .content_about p {
   letter-spacing: 1px;
   font-size: 16px;
+}
+
+/* ***************Estilos Nuestra Historia******************* */
+/* ************************************************************/
+
+.cover_history {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/aseo.jpg);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-blend-mode: darken;
+  align-items: center;
+}
+
+.adjust_img img {
+  width: 350px;
+  padding: 20px;
+}
+
+.title_history {
+  position: relative;
+  left: 10%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-style: italic;
+  color: #FE5900;
+  font-size: 40px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  border: solid;
+  border-color: #7dd8ff;
+  border-width: 2px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 200px;
+  padding-right: 385px;
+  align-items: right;
+  text-align: right;
+}
+
+.box_orange {
+  position: relative;
+  left: 15%;
+  width: 70%;
+  height: 300px;
+  background-color: #FE5900;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.box_blue {
+  position: relative;
+  left: 70%;
+  top: -10%;
+  width: 5%;
+  height: 300px;
+  background-color: #7dd8ff;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.content_history {
+  position: relative;
+  left: -1300%;
+  top: -5%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 300;
+  border-width: 2px;
+  align-items: right;
+  text-align: left;
+  min-width: 1000px;
+  line-height: 80px;
+}
+
+.align_td {
+  padding-left: 90px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.items_history {
+  position: relative;
+  left: 20px;
+  letter-spacing: 1px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  border: solid;
+  border-color: #7dd8ff;
+  border-width: 2px;
+  align-items: left;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 200px;
+  padding-right: 420px;
+  margin-top: 20px;
+}
+
+/* *************Estilos Nuestras Fortalezas****************** */
+/* ************************************************************/
+
+.our_strengths {
+  background-color: rgb(32, 31, 31);
+  text-align: center;
+  padding: 30px;
+}
+
+.our_organization {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our_organization h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-style: italic;
+  color: #FE5900;
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.our_organization p {
+  color: #fff;
+  line-height: 30px; 
+}
+
+.our_paragraph {
+  max-width: 800px;
+  padding-bottom: 50px;
+}
+
+.organization_texts {
+  position: relative;
+  align-items: top;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 50px;
+  max-width: 100%;
+  color: #FFF;
+  padding-bottom: 30px;
 }
